@@ -56,6 +56,8 @@
 } */
 
 .cardcont {
+  height: 400px; /* altura fixa */
+  position: relative;
   border-radius: 16px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   cursor: pointer;
@@ -66,7 +68,7 @@
   justify-content: center;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(#ffffff, #ffffff);
+  background-image: linear-gradient(#4063b8, #023859);
   transition: all 0.5s;
 }
 
@@ -235,6 +237,7 @@
   padding: 15px;
   transform: rotate(-180deg);
   transition: all 0.5s;
+  color: white;
 }
 
 .cardcont:hover .arrow {
@@ -468,8 +471,6 @@ iframe {
   cursor: pointer;
   transition: 0.3s;
 }
-
-
 
 .platform-action:hover {
   background: #012e40;
