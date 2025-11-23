@@ -191,7 +191,7 @@ function Landing(props) {
         <br />
       </div>
 
-      <section class="platform-section">
+      <section class="platform-section" id="conheca-a-plataforma">
         <h2 class="platform-heading">Nossa Plataforma</h2>
 
         <div class="platform-grid">
